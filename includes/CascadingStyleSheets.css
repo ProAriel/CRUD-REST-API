@@ -1,0 +1,34 @@
+/*  Ariel Simantov 207366865
+    Liron Shemesh 301569075
+*/
+.modal-backdrop { /* drop modal to back of Z-index property */
+    z-index: 0 !important; /* highest priority for that css */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+
+#filter {
+    background-image: url(./images/icon_search.png); /* Add a search icon to input */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-size: 40px;
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 15px 45px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 15px; /* Add some space below the input */
+}
